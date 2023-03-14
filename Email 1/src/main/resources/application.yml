@@ -1,0 +1,12 @@
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: myemail@develhope.co
+    password: yourpasswordhere
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
